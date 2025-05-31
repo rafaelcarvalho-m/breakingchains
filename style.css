@@ -1,180 +1,55 @@
-html body{
-
+body {
     margin: 0;
     padding: 0;
-
-}
-
-body{
-
-    height: 100vh;
-    width: 100vh;
-    background-image: url("floresta.png");
-    background-size: 1300px;
-    background-position: center center;
+    background-image:url(imagens/login.jpg);
     background-repeat: no-repeat;
-    
-    
-
-
-}
-
-:root{
-
-    --color-logo: #76a426;
-    --color-menu-vicios: #272727;
-    --color-porcentagem: #ffffff;
-    --color-fundo-dias: #35441b;
-    --color-fundo-horas: #151b12;
-    --color-fundo-minutos: #434c45;
-    --color-fundo-segundos: #7d868e;
-
-}
-
-.logo{
-
-    width: 90%;
-    padding: 10px 10px;
- 
-    
-
-}
-
-.menu__lateral{
-
-    background: rgb(27,27,27,0.7);
-    margin: 35px 0 35px 20px;
-    height: 90%;
-    width: 50%;
-    border-radius: 15px;
-    position: relative;
-    z-index: 1;
-
-
-}
-
-.lista{
-
-    width: 60%;
-    text-align: center;
-
-}
-
-.lista__menu{
-
-    margin-bottom: 80px;
-    margin-left: 55px;
-    align-items: center;
-    list-style: none;
-    background: #1c1c1c;
-    padding: 10px;
-    border-radius: 30px;
-    z-index: 10;
-    position: relative;
-    overflow: visible;
-
-}
-
-a{
-
-    text-decoration: none;
-    color: var(--color-logo);
-
-}
-
-
-a:hover{
-
-    text-decoration: underline;
-
-}
-
-.usuario{
-
-    position: absolute;
-    top: 86.5%;
-    left: 10%;
-    align-items: center;
-    text-align: center;
-
-}
-
-.minha__conta{
-
-    font-size: 23px;
-    color: var(--color-logo);
-    
-
-}
-
-.user {
-
-    color: var(--color-logo);
-    margin-right: 25px;
-    font-size: 40px;
-}
-
-main {
-
-    position: absolute;
-    left: 29%;
-    top: 0;
-    bottom: 0;
-    width: 70%;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
-    
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-container button{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    color: #76a426;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 
-.bloco1{
-
-    background:rgb(27,27,27,0.7);
-    height: 250px;
-    width: 73%;
-    margin-left: 12%;
-    margin-top: 45px;
-    border-radius: 20px;
-
+.login-container input{
+    background-color: #1c1c1c;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+.login-container{
+    background-color: #272727;
+    opacity: 0.76;
+    padding: 40px;
+    height: 300px;
+    width: 800px;
+    align-items: center;
+    border-radius: 35px;
+    color: #76a426;
+    backdrop-filter: blur(10px);      
 }
 
-.vicio{
-
-    color: var(--color-logo);
-    position: absolute;
-    left: 25%;
-    top: 7.2%;
-}
-
-
-#progresso{
-
-    position: absolute;
-    top: 18%;
-    left: 28%;
-    font-size: xx-large;
-    color: var(--color-porcentagem);
+.login-container label{
+    display: block;
+    margin-top: 10px;;
 }
 
 
-.meta__texto{
-
-   position: absolute;
-    top: 30%;
-    left: 15%;
-    font-size: 20px;
-    color: var(--color-porcentagem);
- 
-
-}
-
-#meta{
-
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    font-size: 25px;
-    color: var(--color-logo);
-
-}
 
