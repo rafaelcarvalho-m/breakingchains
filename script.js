@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       console.log("Email:", email);
       console.log("Senha:", senha);
+      console.log("Usuário:", usuario);
+      console.log("Data de Nascimento:", nascimento);
 
     });
   });

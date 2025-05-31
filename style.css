@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image:url(imagens/login.jpg);
+    background-image:url('login.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
