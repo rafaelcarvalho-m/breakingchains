@@ -178,3 +178,25 @@ main {
 
 }
 
+.bloco2{
+
+    background:rgb(27,27,27,0.7);
+    height: 85px;
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 11%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+
+#mais{
+
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25%;
+    color: var(--color-logo);
+    font-weight: bold;
+
+}
