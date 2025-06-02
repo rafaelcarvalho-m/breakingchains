@@ -11,6 +11,14 @@ body {
     justify-content: center;
 }
 
+
+.criar__conta{
+
+    text-align: center;
+    margin-top: 1px;
+
+}
+
 .botao-container button{
     background-color: #1c1c1c;
     display: flex;
@@ -20,30 +28,38 @@ body {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    margin-top: 50px;
+    margin: 50px 0 0 75px;
     text-align: center;
+    transition: all 0.5s;
+}
+
+.botao-container button:hover{
+
+    background-color: #76a426;
+    color: #1c1c1c;
+
 }
 
 
 .login-container input{
     background-color: #1c1c1c;
-    width: 60%;
+    width: 45%;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    margin-top: 5px;
+    margin: 5px 0 0 10px;
     text-align: left;
 }
 .login-container{
     background-color: #272727;
-    opacity: 0.76;
+    opacity: 0.7;
     padding: 40px;
     height: 300px;
     width: 800px;
     align-items: center;
     border-radius: 35px;
     color: #76a426;
-    backdrop-filter: blur(10px);      
+    backdrop-filter: blur(3px);      
 }
 
 .login-container label{
@@ -51,5 +67,11 @@ body {
     margin-top: 10px;;
 }
 
+.logo{
 
+    position: absolute;
+    width: 35%;
+    left: 50%;
+
+}
 

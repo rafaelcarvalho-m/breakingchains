@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const email = document.getElementById('email').value;
       const senha = document.getElementById('senha').value;
-      const usuario = document.getElementById('usuario').value
-      const nascimento = document.getElementById('nascimento')
+      const usuario = document.getElementById('usuario').value;
+      const nascimento = document.getElementById('nascimento').value;
 
       console.log("Email:", email);
       console.log("Senha:", senha);
