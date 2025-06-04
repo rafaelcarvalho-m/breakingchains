@@ -31,6 +31,7 @@ body {
     margin: 50px 0 0 75px;
     text-align: center;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .botao-container button:hover{
@@ -81,3 +82,4 @@ body {
     right: 0;
 
 }
+

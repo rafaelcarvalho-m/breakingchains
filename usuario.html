@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="usuario.css">
 </head>
+
+<script>
+ document.addEventListener('DOMContentLoaded', function () {
+  const nome = localStorage.getItem('nome');
+  const email = localStorage.getItem('email');
+  const nascimento = localStorage.getItem('nascimento');
+
+  document.getElementById('perfil-nome').textContent = nome || "Nome";
+  document.getElementById('perfil-email').textContent = email || "email@email.com";
+  document.getElementById('perfil-nascimento').textContent = nascimento || "Nascido em";
+})
+
+</script>
+
 <body>
+
+    <div class="usuario-container">
+        
+        <h2>Minha conta</h2>
+        
+        <img src="Cópia_de_Minha_conta-removebg-preview.png" alt="usuario-foto" class="foto">
+
+        <p id="perfil-nome">Nome</p>
+        <p id="perfil-email">email@email.com</p>
+        <p id="perfil-nascimento">Nascido em</p>
+
+        <a href="paginainicial.html" class="voltar">Voltar</a>
+
+
+    </div>
     
 </body>
+
+<script src="script.js"></script>
+
 </html>

@@ -283,3 +283,39 @@ button {
     margin-bottom: 10px;
 
 }
+
+.div-informacao{
+
+  background: rgb(27,27,27,0.7);
+  padding: 10px;
+  border-radius: 5px;
+  height: 90%;
+  width: 80%;
+  border-radius: 20px;
+  margin: 50px 0 0 50px;
+
+}
+
+.tiposdevicio-titulo, .comomelhorar-titulo{
+
+    text-align: center;
+    color: var(--color-logo);
+    font-size: 20px;
+    margin-top: 45px;
+
+}
+
+.vicio-substancias, .vicio-comportamental, .vicio-tecnologia, .vicio-trabalho, .vicio-alimentar, .paragrafo1, .paragrafo2, .paragrafo3{
+
+    text-align: left;
+    margin-bottom: 35px;
+    color: var(--color-porcentagem);
+    display: block;
+
+}
+
+.tiposdevicio-texto{
+
+    padding: 0 5px 0 5px;
+
+}
