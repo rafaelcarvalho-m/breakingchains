@@ -92,5 +92,6 @@ h2{
 
     background: var(--color-logo);
     color: var(--color-porcentagem);
+    margin-bottom: 35px;
 
 }
