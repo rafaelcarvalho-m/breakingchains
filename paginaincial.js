@@ -26,7 +26,7 @@ addBtn.addEventListener('click', () => {
     const horas = parseInt(form.querySelector('#horas').value) || 0;
     const minutos = parseInt(form.querySelector('#minutos').value) || 0;
     const segundos = parseInt(form.querySelector('#segundos').value) || 0;
-
+    
     const metaSegundos = 
       semanas * 7 * 24 * 3600 +
       dias * 24 * 3600 +

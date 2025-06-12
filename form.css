@@ -289,25 +289,19 @@ button {
   background: rgb(27,27,27,0.7);
   padding: 10px;
   border-radius: 5px;
-  height: 95%;
+  height: 90%;
   width: 80%;
   border-radius: 20px;
-  margin: 40px 0 0 50px;
+  margin: 50px 0 0 50px;
 
 }
 
-.tiposdevicio-titulo, .ajuda-titulo{
+.tiposdevicio-titulo, .comomelhorar-titulo{
 
     text-align: center;
     color: var(--color-logo);
     font-size: 20px;
     margin-top: 45px;
-
-}
-
-.ajuda-titulo{
-
-    text-transform: uppercase;
 
 }
 
@@ -319,17 +313,24 @@ button {
     display: block;
 
 }
-
-.tiposdevicio-texto{
-
-    padding: 0 5px 0 5px;
-
+#formArea {
+    display: none;
+    background: rgb(27, 27, 27, 0.7);
+    margin: 200px 0 0 126px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #76a426;
 }
 
-.botao-ajuda-1, .botao-ajuda-2{
-    
-    background-color: #272727;
-    border-radius: 5px;
+.input-form {
     padding: 10px;
-
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    background: rgba(255,255,255,0.1);
+    color: white;
 }
